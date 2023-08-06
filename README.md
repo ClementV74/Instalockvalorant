@@ -9,13 +9,11 @@ Le "Valorant Agent Instalocker" est un programme Python conçu pour faciliter la
 
 Fonctionnalités principales :
 
-Vérification des agents disponibles : Avant de démarrer le processus d'instalock, le programme vérifie si vous possédez tous les agents du jeu Valorant. Si vous n'avez pas tous les agents, le programme vous en informe et s'arrête, vous empêchant de participer à une partie sans pouvoir choisir votre agent préféré. ❌🕵️‍♂️
-
 Installation automatique des dépendances : Le programme utilise un système d'installation automatique des dépendances pour s'assurer que toutes les bibliothèques et les modules requis sont présents sur votre système. Si certaines dépendances sont manquantes, le programme les télécharge et les installe automatiquement avant de poursuivre. 📦🔧
 
-Sélection automatique de l'agent : Une fois que le programme a vérifié que vous possédez tous les agents, il se prépare à rejoindre une partie. Dès que la phase de sélection des agents commence, le programme détecte cette étape et choisit automatiquement l'agent que vous avez défini en tant que préférence dans la configuration du programme. 🤖👾
+Sélection automatique de l'agent : Dès que la phase de sélection des agents commence, le programme détecte cette étape et choisit automatiquement l'agent que vous avez défini en tant que préférence dans la configuration du programme. 🤖👾
 
-Interface utilisateur simple : Le programme dispose d'une interface utilisateur minimaliste et conviviale. Vous pouvez facilement configurer vos préférences d'agent dans un fichier de configuration dédié. 🖥️🎚️
+Interface utilisateur simple : Le programme dispose d'une interface utilisateur minimaliste et conviviale. 🖥️🎚️
 
 Comment utiliser le programme :
 
@@ -23,11 +21,11 @@ Assurez-vous d'avoir Python installé sur votre système (le programme est compa
 
 Clonez ou téléchargez le dépôt du programme depuis GitHub. 📂💻
 
-Exécutez le fichier principal du programme (par exemple, "valorant_instalocker.py"). 🚀🎯
+Exécutez le fichier principal du programme ( "valorant_instalocker.py"). 🚀🎯
 
 Le programme commencera par vérifier la présence de tous les agents dans votre compte Valorant. 👀✅
 
-Si tous les agents sont disponibles, le programme se préparera à rejoindre une partie. 🚀🎮
+ le programme se préparera à rejoindre une partie. 🚀🎮
 
 Une fois la phase de sélection d'agent commencée, le programme choisira automatiquement votre agent préféré. 🎲💥
 
