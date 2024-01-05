@@ -22,9 +22,27 @@ except ImportError:
 agent_coordinates = {
     "Astra": (639, 848),
     "Breach": (710, 832),
-    # ... (coordonnées pour les autres agents)
+    "Brimstone": (790, 840),
+    "Chamber": (876, 835),
+    "Cypher": (872, 925),
+    "Deadlock": (1055, 823),
+    "Fade": (1111, 838),
+    "Gekko": (1210, 828),
+    "Harbor": (1306, 837),
+    "Jett": (698, 927),
+    "Kay/O": (794, 925),
+    "Killjoy": (855, 931),
+    "Neon": (950, 918),
+    "Omen": (1047, 925),
+    "Phoenix": (1120, 940),
+    "Raze": (1217, 924),
+    "Reyna": (1297, 931),
+    "Sage": (606, 977),
+    "Skye": (718, 1002),
+    "Sova": (802, 992),
+    "Viper": (802, 992),
     "Yoru": (942, 989),
-    "Iso": (609, 922),
+    "Iso":(609, 922),
 }
 
 # Fonction pour choisir un agent
