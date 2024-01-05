@@ -27,28 +27,29 @@ window.title("Valorant Instalocker")
 window.resizable(False, False)
 
 agent_coordinates = {
-    "Astra": (544, 927),
-    "Breach": (625, 925),
-    "Brimstone": (717, 925),
-    "Chamber": (791, 925),
+    "Astra": (639, 848),
+    "Breach": (710, 832),
+    "Brimstone": (790, 840),
+    "Chamber": (876, 835),
     "Cypher": (872, 925),
-    "Deadlock": (960, 920),
-    "Fade": (1043, 925),
-    "Gekko": (1131, 925),
-    "Harbor": (1214, 925),
-    "Jett": (1300, 925),
-    "Kay/O": (1385, 918),
-    "Killjoy": (540, 1007),
-    "Neon": (622, 993),
-    "Omen": (703, 993),
-    "Phoenix": (790, 993),
-    "Raze": (876, 999),
-    "Reyna": (963, 996),
-    "Sage": (1046, 1000),
-    "Skye": (1130, 996),
-    "Sova": (1210, 994),
-    "Viper": (1306, 997),
-    "Yoru": (1378, 998)
+    "Deadlock": (1055, 823),
+    "Fade": (1111, 838),
+    "Gekko": (1210, 828),
+    "Harbor": (1306, 837),
+    "Jett": (698, 927),
+    "Kay/O": (794, 925),
+    "Killjoy": (855, 931),
+    "Neon": (950, 918),
+    "Omen": (1047, 925),
+    "Phoenix": (1120, 940),
+    "Raze": (1217, 924),
+    "Reyna": (1297, 931),
+    "Sage": (606, 977),
+    "Skye": (718, 1002),
+    "Sova": (802, 992),
+    "Viper": (802, 992),
+    "Yoru": (942, 989),
+    "Iso":(609, 922),
 }
 
 def pick_agent(agent):
@@ -57,7 +58,7 @@ def pick_agent(agent):
         pg.moveTo(agent_coordinates[agent])
         pg.doubleClick()
         pg.PAUSE = 0.015
-        pg.moveTo(954, 812)
+        pg.moveTo(892, 739)
         pg.doubleClick()
 
         try:
@@ -72,7 +73,7 @@ text_output.grid(row=3, column=0, columnspan=5, pady=10)
 agents = [
     "Astra", "Breach", "Brimstone", "Chamber", "Cypher", "Deadlock", "Fade", "Gekko",
     "Harbor", "Jett", "Kay/O", "Killjoy", "Neon", "Omen", "Phoenix", "Raze", "Reyna",
-    "Sage", "Skye", "Sova", "Viper", "Yoru"
+    "Sage", "Skye", "Sova", "Viper", "Yoru", "Iso"
 ]
 
 buttons = []
