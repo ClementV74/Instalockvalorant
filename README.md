@@ -1,8 +1,6 @@
 # Instalockvalorant
 
 
-https://github.com/FeeGaffe/Instalockvalorant/assets/45317801/91747b66-94d5-49fe-93e0-68de8dab6a09
-
 
 
 Le "Valorant Agent Instalocker" est un programme Python conçu pour faciliter la sélection rapide d'agents dans le jeu vidéo Valorant de Riot Games. L'instalock est une stratégie utilisée par les joueurs pour sélectionner un agent dès que la phase de sélection débute, avant que d'autres joueurs puissent le choisir. Ce programme vous permet de gagner un avantage en automatisant le processus d'instalock tout en s'assurant que vous possédez tous les agents du jeu.
